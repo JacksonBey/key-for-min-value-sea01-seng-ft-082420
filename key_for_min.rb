@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 minval = 9999
-lowprice = ""
+lowprice = nil
 name_hash.each do |name,price|
   if minval > price
     lowprice =name
